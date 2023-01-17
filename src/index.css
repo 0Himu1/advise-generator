@@ -17,4 +17,12 @@ body {
   height: 100vh;
   width: 100%;
   background-color: hsl(218, 23%, 16%);
+  padding: 100px;
+  overflow-x: hidden;
+}
+
+@media (max-width: 440px) {
+  body {
+    padding: 10px;
+  }
 }
